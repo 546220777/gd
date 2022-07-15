@@ -38,7 +38,6 @@ if [ -f ${QLMainPath}/jbot/user/user.py ];then
     echo -e "rm -rf  ${QLMainPath}/jbot/*  &&   bash  install.sh\n"
     exit 0
 fi
-install_depend
 gitPull
 echo -e "\n*******************\n所需环境已部署完成\n*******************\n"
 echo -e "请前往面板【配置文件】配置tg机器人参数，再启动机器人即可。\n参考本仓库第3-4步: https://github.com/curtinlv/gd/blob/main/README.md "
